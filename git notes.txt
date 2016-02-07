@@ -21,3 +21,15 @@ git status #working tree, what is on table
 git add README.md
 git add .d # add everything in directory, including hidden files, until you say ignore
 # to save, git add same
+
+# add to history
+git commit 
+	git commit # vim
+	git commit -m 'New changes' # goes to screen
+
+git log # shows new changes
+
+# rename
+1. rename in directory
+2. git commit . # adds new file, delets old file
+3. git commit -A # rename, smart, will know changes + rename
