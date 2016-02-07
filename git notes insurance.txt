@@ -1,0 +1,23 @@
+
+head # where you are in time, time is an attribute; tip of the branch
+
+config # project specific configuration
+
+description # not sure
+
+hooks # what function do you want git to run before, after, etc. where you can plug in code to do tasks in between, before, or after, operation in clode
+
+info # meta data, eg, if you want it to ignore files
+
+objects # gits perspective on version histosry is objects. time is just an attribute of that object
+
+refs # pointers to other parts of history
+
+
+// git commands
+
+git log # shows command
+git status #working tree, what is on table
+git add README.md
+git add .d # add everything in directory, including hidden files, until you say ignore
+# to save, git add same
